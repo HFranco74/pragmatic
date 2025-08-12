@@ -259,7 +259,7 @@
                 <i class="bi bi-envelope flex-shrink-0"></i>
                 <div>
                   <h4>Correo electrónico:</h4>
-                  <p><a href="mailto:contacto@pragmaticconsultingmx.com.mx">contacto@pragmaticconsultingmx.com.mx</a></p>
+                  <p><a href="mailto:contacto@pragmaticonsulting.com.mx">contacto@pragmaticonsulting.com.mx</a></p>
                 </div>
               </div>
 
