@@ -113,6 +113,8 @@
         <p style="color:#021f44;" class="parrafo-borde">
           Somos <strong style="color:#2c8c7f">PragmaTIC Consulting</strong>, su socio estratégico para convertir la visión de su organización en una realidad. A través de un enfoque pragmático y orientado a resultados, nos integramos con sus líderes y diseñamos e implementamos soluciones que no solo resuelven problemas, sino que también impulsan el crecimiento y la eficiencia de su organización.
         </p>
+        <br/>
+        <br/>
       </div>
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
