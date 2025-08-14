@@ -100,7 +100,7 @@
       <strong>¿Lo mejor y más sorprendente?</strong>
       <br/>
       <br/>
-      Una inversión predecible: ¡Absolutamente TODO por una renta mensual!
+      <strong style="color:#2c8c7f">Una inversión predecible: ¡Absolutamente TODO por una renta mensual!</strong>
       <br/>
       ¡Es hora de actuar!
     </p>
