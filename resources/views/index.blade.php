@@ -35,6 +35,11 @@
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
+  <style>
+  .borde-verde {
+  border: 10px solid #2c8c7f;
+}
+  </style>
 </head>
 
 <body class="index-page">
@@ -81,13 +86,34 @@
         </div>
       </div>
     </section>
+
 <br/>
 &nbsp;
+
+<section>
+  <div class="borde-verde container section-title">
+    <strong>¿Preparado para que tu operación genere resultados alineados a tus metas?</strong>
+    <br/>
+    <br/>
+    <p>
+      Olvídate de licencias costosas y complejidades. Nosotros te ofrecemos un robusto ERP <strong style="color:purple">Odoo Community</strong> de vanguardia, instalado en un servidor en la nube blindado con su seguridad informática, más el acompañamiento experto y soporte total de <strong style="color:#2c8c7f">PragmaTIC Consulting</strong>, para integrar, sistematizar y automatizar tus procesos clave.
+    </p>
+    <br/>
+    <p>
+      <strong>¿Lo mejor y más sorprendente?</strong>
+      <br/>
+      <br/>
+      Una inversión predecible: ¡Absolutamente TODO por una renta mensual!
+      <br/>
+      ¡Es hora de actuar!
+    </p>
+  </div>
+</section>
+
 <br/>
-&nbsp;
     <section id="services" class="services section">
       <div class="container section-title" data-aos="fade-up">
-        <h2 style="color:#021f44;">Nuestros Servicios</h2>
+        <h2 style="color:#021f44;"><strong>Nuestros Servicios</strong></h2>
         <p style="color:#021f44;">
           Sistematización y Automatización que impulsan a las PYMES
           <br/>
@@ -95,7 +121,7 @@
         </p>
         <br/>
         <p style="color:#021f44;" class="parrafo-borde">
-          Somos <strong>PragmaTIC Consulting</strong>, su socio estratégico para convertir la visión de su organización en una realidad. A través de un enfoque pragmático y orientado a resultados, nos integramos con sus líderes y diseñamos e implementamos soluciones que no solo resuelven problemas, sino que también impulsan el crecimiento y la eficiencia de su organización.
+          Somos <strong style="color:#2c8c7f">PragmaTIC Consulting</strong>, su socio estratégico para convertir la visión de su organización en una realidad. A través de un enfoque pragmático y orientado a resultados, nos integramos con sus líderes y diseñamos e implementamos soluciones que no solo resuelven problemas, sino que también impulsan el crecimiento y la eficiencia de su organización.
         </p>
       </div>
 
@@ -112,7 +138,7 @@
               <div class="details position-relative">
                 <a href="{{ route('serv1') }}" class="stretched-link">
               <div class="img">
-                <img src="{{ asset('assets/img/sistematizacion.png') }}" class="img-fluid" width="400px" alt="">
+                <img src="{{ asset('assets/img/salud_organizacional.png') }}" class="img-fluid" width="400px" alt="">
               </div>
                   <h3>Sistematización</h3>
                 </a>
@@ -133,7 +159,7 @@
                 <div class="details position-relative">
                 <a href="{{ route('serv2') }}" class="stretched-link">
                   <div class="img">
-                    <img src="{{ asset('assets/img/automatizacion.png') }}" class="img-fluid" alt="" width="300px">
+                    <img src="{{ asset('assets/img/odoo_erp.png') }}" class="img-fluid" alt="" width="300px">
                   </div>
                   <h3>Automatización</h3>
                 </a>
@@ -173,7 +199,7 @@
               <div class="details position-relative">
                 <a href="{{ route('serv4') }}" class="stretched-link">
               <div class="img">
-                <img src="{{ asset('assets/img/transformacion_digital.png') }}" class="img-fluid" alt="">
+                <img src="{{ asset('assets/img/transformacion_digital.jpg') }}" class="img-fluid" alt="">
               </div>
                   <h3>Transformación Digital</h3>
                 </a>
@@ -319,7 +345,7 @@
               <p>Crisóstomo Bonilla S/N</p>
               <p>Puebla de Zaragoza, México 73530</p>
               <p class="mt-3"><strong>Teléfono:</strong> <span>56 5529 1478 (Llamadas / Whatsapp)</span></p>
-              <p><strong>Correo electrónico:</strong> <span><a href="mailto:contacto@pragmaticconsultingmx.com.mex">contacto@pragmaticconsultingmx.com.mex</a></p>
+              <p><strong>Correo electrónico:</strong> <span><a href="mailto:contacto@pragmaticonsulting.com.mx">contacto@pragmaticonsulting.com.mx</a></p>
             </div>
           </div>
           <div class="col-lg-2 col-md-3 footer-links">

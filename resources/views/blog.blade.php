@@ -285,7 +285,7 @@
               <p>Crisóstomo Bonilla S/N</p>
               <p>Puebla de Zaragoza, México 73530</p>
               <p class="mt-3"><strong>Teléfono:</strong> <span>56 5529 1478 (Llamadas / Whatsapp)</span></p>
-              <p><strong>Correo electrónico:</strong> <span><a href="mailto:contacto@pragmaticconsultingmx.com.mex">contacto@pragmaticconsultingmx.com.mex</a></p>
+              <p><strong>Correo electrónico:</strong> <span><a href="mailto:contacto@pragmaticonsulting.com.mx">contacto@pragmaticonsulting.com.mx</a></p>
             </div>
           </div>
           <div class="col-lg-2 col-md-3 footer-links">
@@ -319,7 +319,7 @@
         <div class="social-links order-first order-lg-last mb-3 mb-lg-0">
           <!-- <a href=""><i class="bi bi-twitter-x"></i></a> -->
           <a href="https://www.facebook.com/share/1Ae3yF2e49/?mibextid=wwXIfr" target="_blank"><i class="bi bi-facebook"></i></a>
-          <a href="https://www.instagram.com/pragmaticconsultingmx?igsh=MWptcGNubmFreXMyNw%3D%3D&utm_source=qr" target="_blank"><i class="bi bi-instagram"></i></a>
+          <a href="https://www.instagram.com/pragmaticonsulting?igsh=MWptcGNubmFreXMyNw%3D%3D&utm_source=qr" target="_blank"><i class="bi bi-instagram"></i></a>
           <!-- <a href=""><i class="bi bi-linkedin"></i></a> -->
         </div>
       </div>

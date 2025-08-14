@@ -68,7 +68,7 @@
         <h1 class="mb-2 mb-lg-0">Diagnóstico</h1>
         <!-- <nav class="breadcrumbs">
           <ol>
-            <li><a href="https://pragmaticconsultingmx.com.mx/index.html">Inicio</a></li>
+            <li><a href="https://pragmaticonsulting.com.mx/index.html">Inicio</a></li>
             <li class="current">Service Details</li>
           </ol>
         </nav> -->
@@ -128,7 +128,7 @@
               <p>Crisóstomo Bonilla S/N</p>
               <p>Puebla de Zaragoza, México 73530</p>
               <p class="mt-3"><strong>Teléfono:</strong> <span>56 5529 1478 (Llamadas / Whatsapp)</span></p>
-              <p><strong>Correo electrónico:</strong> <span><a href="mailto:contacto@pragmaticconsultingmx.com.mex">contacto@pragmaticconsultingmx.com.mex</a></p>
+              <p><strong>Correo electrónico:</strong> <span><a href="mailto:contacto@pragmaticonsulting.com.mx">contacto@pragmaticonsulting.com.mx</a></p>
             </div>
           </div>
 
@@ -136,8 +136,8 @@
             <h4>Enláces Útiles</h4>
             <ul>
               <li><a href="{{ route('home') }}">Inicio</a></li>
-              <li><a href="https://pragmaticconsultingmx.com.mx#services">Servicios</a></li>
-              <li><a href="https://pragmaticconsultingmx.com.mx#contact">Contacto</a></li>
+              <li><a href="https://pragmaticonsulting.com.mx#services">Servicios</a></li>
+              <li><a href="https://pragmaticonsulting.com.mx#contact">Contacto</a></li>
             </ul>
           </div>
         </div>
@@ -164,7 +164,7 @@
         <div class="social-links order-first order-lg-last mb-3 mb-lg-0">
           <!-- <a href=""><i class="bi bi-twitter-x"></i></a> -->
           <a href="https://www.facebook.com/share/1Ae3yF2e49/?mibextid=wwXIfr" target="_blank"><i class="bi bi-facebook"></i></a>
-          <a href="https://www.instagram.com/pragmaticconsultingmx?igsh=MWptcGNubmFreXMyNw%3D%3D&utm_source=qr" target="_blank"><i class="bi bi-instagram"></i></a>
+          <a href="https://www.instagram.com/pragmaticonsulting?igsh=MWptcGNubmFreXMyNw%3D%3D&utm_source=qr" target="_blank"><i class="bi bi-instagram"></i></a>
           <!-- <a href=""><i class="bi bi-linkedin"></i></a> -->
         </div>
       </div>
