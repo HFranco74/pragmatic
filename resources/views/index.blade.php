@@ -79,7 +79,7 @@
       </div>
     </section>
 
-    <section id="services"  class="about section">
+    <section id="services"  class="services section">
       <div class="container" data-aos="fade-up">
         <div class="container d-flex flex-column justify-content-center align-items-center text-center position-relative" data-aos="zoom-out">
           <img src="{{ asset('assets/img/odoocommunity.jpeg') }}" class="text-center img-fluid" width="30%" alt="">
@@ -90,15 +90,12 @@
 <section>
   <div class="borde-verde container section-title">  {{--  --}}
     <strong><h3>¿Preparado para que tu operación genere resultados alineados a tus metas?</h3></strong>
-    <br/>
-    <br/>
     <p style="font-size:24px;">
       Olvídate de licencias costosas y complejidades. Nosotros te ofrecemos un robusto ERP <strong style="color:purple">Odoo Community</strong> de vanguardia, instalado en un servidor en la nube blindado con su seguridad informática, más el acompañamiento experto y soporte total de <strong style="color:#2c8c7f">PragmaTIC Consulting</strong>, para integrar, sistematizar y automatizar tus procesos clave.
     </p>
-    <br/>
+
     <p style="font-size:26px;">
       <strong>¿Lo mejor y más sorprendente?</strong>
-      <br/>
       <br/>
       <strong style="color:#2c8c7f">Una inversión predecible: ¡Absolutamente TODO por una renta mensual!</strong>
       <br/>
