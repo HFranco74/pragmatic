@@ -88,11 +88,11 @@
     </section>
 
 <section>
-  <div class="borde-verde container">  {{-- section-title --}}
-    <strong>¿Preparado para que tu operación genere resultados alineados a tus metas?</strong>
+  <div class="borde-verde container section-title">  {{--  --}}
+    <strong><h3>¿Preparado para que tu operación genere resultados alineados a tus metas?</h3></strong>
     <br/>
     <br/>
-    <p>
+    <p style="font-size:24px;">
       Olvídate de licencias costosas y complejidades. Nosotros te ofrecemos un robusto ERP <strong style="color:purple">Odoo Community</strong> de vanguardia, instalado en un servidor en la nube blindado con su seguridad informática, más el acompañamiento experto y soporte total de <strong style="color:#2c8c7f">PragmaTIC Consulting</strong>, para integrar, sistematizar y automatizar tus procesos clave.
     </p>
     <br/>
