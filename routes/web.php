@@ -31,7 +31,7 @@ Route::post('enviar-correo', function() {
         'subject' => request()->subject,
         'message' => request()->message,
     ]);
-    Mail::to('contacto@pragmaticconsultingmx.com.mx')->send(new EnviarCorreo($datos));
+    Mail::to('contacto@pragmaticonsulting.com.mx')->send(new EnviarCorreo($datos));
     //Mail::to('humberto.franco@pragmaticconsultingmx.com.mx')->send(new EnviarCorreo($datos));
 
     return  redirect()->route('home')->with('success', 'Correo enviado exitosamente.');
