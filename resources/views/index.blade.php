@@ -96,7 +96,7 @@
       Olvídate de licencias costosas y complejidades. Nosotros te ofrecemos un robusto ERP <strong style="color:purple">Odoo Community</strong> de vanguardia, instalado en un servidor en la nube blindado con su seguridad informática, más el acompañamiento experto y soporte total de <strong style="color:#2c8c7f">PragmaTIC Consulting</strong>, para integrar, sistematizar y automatizar tus procesos clave.
     </p>
     <br/>
-    <p>
+    <p style="font-size:26px;">
       <strong>¿Lo mejor y más sorprendente?</strong>
       <br/>
       <br/>
