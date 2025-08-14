@@ -30,6 +30,8 @@ Route::post('enviar-correo', function() {
         'email' => request()->email,
         'subject' => request()->subject,
         'message' => request()->message,
+        'company' => request()->company,
+        'phone' => request()->phone,
     ]);
 
     Mail::to('contacto@pragmaticonsulting.com.mx')->send(new EnviarCorreo($datos));
