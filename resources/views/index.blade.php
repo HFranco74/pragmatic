@@ -82,13 +82,13 @@
     <section id="services"  class="about section">
       <div class="container" data-aos="fade-up">
         <div class="container d-flex flex-column justify-content-center align-items-center text-center position-relative" data-aos="zoom-out">
-          <img src="{{ asset('assets/img/odoocommunity.jpeg') }}" class="text-center img-fluid" width="60%" alt="">
+          <img src="{{ asset('assets/img/odoocommunity.jpeg') }}" class="text-center img-fluid" width="30%" alt="">
         </div>
       </div>
     </section>
 
 <section>
-  <div class="borde-verde container section-title">
+  <div class="borde-verde container">  {{-- section-title --}}
     <strong>¿Preparado para que tu operación genere resultados alineados a tus metas?</strong>
     <br/>
     <br/>
