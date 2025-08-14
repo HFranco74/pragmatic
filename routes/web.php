@@ -31,10 +31,10 @@ Route::post('enviar-correo', function() {
         'subject' => request()->subject,
         'message' => request()->message,
     ]);
-    Mail::to('contacto@pragmaticonsulting.com.mx')->send(new EnviarCorreo($datos));
-    //Mail::to('humberto.franco@pragmaticconsultingmx.com.mx')->send(new EnviarCorreo($datos));
 
-    return  redirect()->route('home')->with('success', 'Correo enviado exitosamente.');
+    Mail::to('contacto@pragmaticonsulting.com.mx')->send(new EnviarCorreo($datos));
+
+    return  redirect()->route('home')->with('sent-message', 'Correo enviado exitosamente.');
 
 })->name('enviar-correo');
 
