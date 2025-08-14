@@ -47,13 +47,13 @@
   <header id="header" class="header d-flex align-items-center sticky-top">
     <div class="container-fluid position-relative d-flex align-items-center justify-content-between">
 
-      <a href="{{ route('home') }}" class="logo d-flex align-items-center me-auto me-xl-0">
+{{--       <a href="{{ route('home') }}" class="logo d-flex align-items-center me-auto me-xl-0">
         <!-- Uncomment the line below if you also wish to use an image logo -->
         <!-- <img src="assets/img/logo.png" alt=""> -->
         <h1 class="sitename" style="color: #2c8c7f;"><strong> PragmaTIC Consulting </strong></h1>
         <span></span>
       </a>
-
+ --}}
       <nav id="navmenu" class="navmenu">
         <ul>
           <li><a href="{{route('home')}}#inicio" class="active">Inicio<br></a></li>
@@ -79,16 +79,13 @@
       </div>
     </section>
 
-    <section id="about" class="about section">
+    <section id="services"  class="about section">
       <div class="container" data-aos="fade-up">
         <div class="container d-flex flex-column justify-content-center align-items-center text-center position-relative" data-aos="zoom-out">
           <img src="{{ asset('assets/img/odoocommunity.jpeg') }}" class="text-center img-fluid" width="60%" alt="">
         </div>
       </div>
     </section>
-
-<br/>
-&nbsp;
 
 <section>
   <div class="borde-verde container section-title">
@@ -110,16 +107,9 @@
   </div>
 </section>
 
-<br/>
-    <section id="services" class="services section">
+    <section class="services section">
       <div class="container section-title" data-aos="fade-up">
         <h2 style="color:#021f44;"><strong>Nuestros Servicios</strong></h2>
-        <p style="color:#021f44;">
-          Sistematización y Automatización que impulsan a las PYMES
-          <br/>
-           con la selección y ejecución de decisiones para acelerar tus resultados.
-        </p>
-        <br/>
         <p style="color:#021f44;" class="parrafo-borde">
           Somos <strong style="color:#2c8c7f">PragmaTIC Consulting</strong>, su socio estratégico para convertir la visión de su organización en una realidad. A través de un enfoque pragmático y orientado a resultados, nos integramos con sus líderes y diseñamos e implementamos soluciones que no solo resuelven problemas, sino que también impulsan el crecimiento y la eficiencia de su organización.
         </p>
