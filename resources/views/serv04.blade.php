@@ -227,7 +227,7 @@
         <div class="social-links order-first order-lg-last mb-3 mb-lg-0">
           <!-- <a href=""><i class="bi bi-twitter-x"></i></a> -->
           <a href="https://www.facebook.com/share/1Ae3yF2e49/?mibextid=wwXIfr" target="_blank"><i class="bi bi-facebook"></i></a>
-          <a href="https://www.instagram.com/pragmaticonsulting?igsh=MWptcGNubmFreXMyNw%3D%3D&utm_source=qr" target="_blank"><i class="bi bi-instagram"></i></a>
+          <a href="https://www.instagram.com/pragmaticonsulting" target="_blank"><i class="bi bi-instagram"></i></a>
           <!-- <a href=""><i class="bi bi-linkedin"></i></a> -->
         </div>
       </div>
