@@ -73,7 +73,7 @@
         <h1>Bienvenidos a <bold><span style="color: #2c8c7f;"><strong>PragmaTIC Consulting</strong></span></bold></h1>
         <p style="color:#021f44;">Haz clic en Podcast para tener una explicación general de nuestros servicios.</p>
         <div class="d-flex">
-          <a href="https://youtu.be/O_mnb2PVXXo" class="glightbox btn-watch-video d-flex align-items-center"><!-- <i class="bi bi-play-circle"></i> -->
+          <a href="https://youtu.be/oRHWkqnrBhg" class="glightbox btn-watch-video d-flex align-items-center"><!-- <i class="bi bi-play-circle"></i> -->
             <img src="/assets/img/img_podcast.jpeg" width="120 %"><span style="color: white;">_</span><span>  Podcast</span></a>
         </div>
       </div>
