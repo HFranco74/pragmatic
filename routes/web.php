@@ -1,9 +1,12 @@
 <?php
 
+use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
-use Illuminate\Support\Facades\Mail;
 use App\Mail\EnviarCorreo;
+use Illuminate\Support\Facades\Mail;
 use App\Http\Controllers\UsuarioController;
+use App\Http\Controllers\PostController;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -16,14 +19,30 @@ use App\Http\Controllers\UsuarioController;
 |
 */
 
+
+Route::get('/dashboard', function () {
+    return view('dashboard');
+})->middleware(['auth', 'verified'])->name('dashboard');
+
+Route::middleware('auth')->group(function () {
+    Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
+    Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
+    Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
+
+
+});
+
+require __DIR__.'/auth.php';
+
+
 Route::get('/', function () {
     return view('index');
 })->name('home');
 
-Route::get('alt', function() {
+/* Route::get('alt', function() {
     return view('index_alt');
 })->name('alt');
-
+ */
 Route::post('enviar-correo', function() {
     $datos = ([
         'name' => request()->name,
@@ -65,11 +84,13 @@ Route::get('serv6', function() {
     return view('serv06');
 })->name('serv6');
 
-
+/* 
 Route::get('blog', function() {
     return view('blog');
 })->name('blog');
+ */
 
+Route::get('blog', [App\Http\Controllers\PostController::class, 'index'])->name('blog');
 
 Route::get('blog-details', function() {
     return view('blog-details');
@@ -82,9 +103,9 @@ Route::get('editar-usuario/{id}', [App\Http\Controllers\UsuarioController::class
 Route::put('actualizar-usuario/{id}', [App\Http\Controllers\UsuarioController::class, 'update'])->name('actualizar-usuario');
 Route::delete('eliminar-usuario /{id}', [App\Http\Controllers\UsuarioController::class, 'destroy'])->name('eliminar-usuario');
 
-Route::get('blog/create', [App\Http\Controllers\BlogController::class, 'create'])->name('blog.create');
-Route::post('blog/store', [App\Http\Controllers\BlogController::class, 'store'])->name('blog.store');
-Route::get('blog/{id}', [App\Http\Controllers\BlogController::class, 'show'])->name('blog.show');
-Route::get('blog/{id}/edit', [App\Http\Controllers\BlogController::class, 'edit'])->name('blog.edit');
-Route::put('blog/{id}', [App\Http\Controllers\BlogController::class, 'update'])->name('blog.update');
-Route::delete('blog/{id}', [App\Http\Controllers\BlogController::class, 'destroy'])->name('blog.destroy');
+Route::get('post/create', [App\Http\Controllers\PostController::class, 'create'])->name('post.create');
+Route::post('post/store', [App\Http\Controllers\PostController::class, 'store'])->name('post.store');
+Route::get('post/{id}', [App\Http\Controllers\PostController::class, 'show'])->name('post.show');
+Route::get('post/{id}/edit', [App\Http\Controllers\PostController::class, 'edit'])->name('post.edit');
+Route::put('post/{id}', [App\Http\Controllers\PostController::class, 'update'])->name('post.update');
+Route::delete('post/{id}', [App\Http\Controllers\PostController::class, 'destroy'])->name('post.destroy');
